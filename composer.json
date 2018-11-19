@@ -1,0 +1,26 @@
+{
+    "name": "hoohoovovka/word-sorting",
+    "type": "library",
+    "homepage": "https://github.com/hoohoovovka/word-sorting",
+    "require": {
+        "php" : "~7.0",
+        "ext-mbstring": "*",
+        "ext-intl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hoohoovovka\\WordSorting\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hoohoovovka\\WordSorting\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
